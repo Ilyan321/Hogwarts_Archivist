@@ -33,7 +33,7 @@ The project was built in three distinct phases to optimize compute and deploymen
 - **Vector Storage:** Compiled the embeddings into a local FAISS index, exported as a `.zip` file to avoid recalculating embeddings during deployment.
 
 ### Phase 2: Core Logic & Prompt Engineering
-- **Top-K Retrieval:** Configured FAISS to pull the top 5 most relevant documents (`k=5`) to prevent "Retrieval Sparsity" (e.g., ensuring minor characters like Neville Longbottom aren't missed during major plot queries).
+- **Top-K Retrieval:** Configured FAISS to pull the top 3 most relevant documents (`k=3`) to prevent "Retrieval Sparsity" (e.g., ensuring minor characters like Neville Longbottom aren't missed during major plot queries).
 - **The "Brain":** Integrated Groq API for rapid LLM inference, guided by a strict System Prompt to maintain a magical persona and adhere only to the provided context.
 
 ### Phase 3: Deployment (Hugging Face Spaces)
@@ -60,8 +60,8 @@ If you'd like to run The Hogwarts Archivist on your local machine:
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/yourusername/hogwarts-archivist-rag.git
-    cd hogwarts-archivist-rag
+    git clone https://github.com/yourusername/Hogwarts-Archivist.git
+    cd Hogwarts-Archivist
     ```
 
 2. **Install the dependencies:**
