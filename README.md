@@ -6,6 +6,13 @@ This project was built to demonstrate full-stack AI engineering, moving from dat
 
 ---
 
+## 🪄 Live Demo
+
+Try The Hogwarts Archivist instantly with the live demo on Hugging Face Spaces:  
+[https://huggingface.co/spaces/Ilyankhan69/Hogwarts-Archivist](https://huggingface.co/spaces/Ilyankhan69/Hogwarts-Archivist)
+
+---
+
 ## ✨ Key Features
 
 - **Accurate Lore Retrieval:** Uses semantic search to read through 95,000+ chunks of book text and retrieve the exact paragraphs containing the answer.
